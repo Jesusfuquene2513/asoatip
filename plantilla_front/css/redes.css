@@ -1,0 +1,82 @@
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:300px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:none;
+    color:#efefef;
+    height:60px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+    display:flex; align-items: center;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+.red{
+    font-size:25px;
+    position:relative; left:10px;
+}
+.red1{
+    background:#3b5998; color:white;
+    border:none
+}
+.red2{
+    background:#E1306C; color:white;
+    border:none
+}
+.red3{
+    background:#1DA1F2; color:white;
+    border:none
+}
+.red4{
+    background:#FF0000; color:white;
+    border:none
+}
+.red5{
+    background:#25D366; color:white;
+    border:none
+}
+
+
+.r a{
+    display:none
+}
+.r:hover a{
+    
+    display:block
+    
+}
+.r{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.r:hover{
+    background: rgb(0 , 0 , 0 , 0.5)
+}
